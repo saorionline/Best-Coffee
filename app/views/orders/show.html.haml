@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Combo:
+  = @order.combo
+%p
+  %b Due date:
+  = @order.due_date
+%p
+  %b Drink:
+  = @order.drink
+
+= link_to 'Edit', edit_order_path(@order)
+\|
+= link_to 'Back', orders_path

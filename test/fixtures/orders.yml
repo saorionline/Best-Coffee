@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: orders
+#
+#  id         :bigint           not null, primary key
+#  combo      :string
+#  due_date   :date
+#  drink_id   :bigint           not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  combo: MyString
+  due_date: 2022-06-20
+  drink: one
+
+two:
+  combo: MyString
+  due_date: 2022-06-20
+  drink: two
